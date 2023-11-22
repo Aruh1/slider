@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="display: flex;flex-direction: row;"></div>
+        <div class="switch" onclick="toogleSwitch()">
+            <div class="inner">
+                <div class="dots dot1"></div>
+                <div class="dots dot2"></div>
+                <div class="dots dot3"></div>
+            </div>
+            <div class="overlay overlay1"></div>
+            <div class="overlay overlay2"></div>
+
+            <div class="clouds cloud1"></div>
+            <div class="clouds cloud2"></div>
+            <div class="clouds cloud3"></div>
+            <div class="clouds cloud4"></div>
+            <div class="clouds cloud5"></div>
+            <div class="clouds cloud6"></div>
+            <div class="clouds cloud7"></div>
+            <div class="clouds cloud8"></div>
+
+            <div class="clouds cloud0overlay cloud1"></div>
+            <div class="clouds cloud0overlay cloud2"></div>
+            <div class="clouds cloud0overlay cloud3"></div>
+            <div class="clouds cloud0overlay cloud4"></div>
+            <div class="clouds cloud0overlay cloud5"></div>
+            <div class="clouds cloud0overlay cloud6"></div>
+            <div class="clouds cloud0overlay cloud7"></div>
+            <div class="clouds cloud0overlay cloud8"></div>
+        </div>
+    </div>
+    <script>
+        const toogleSwitch = () => {
+            let btn = document.querySelector(".switch");
+            btn.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
