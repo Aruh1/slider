@@ -19,6 +19,7 @@ div { transition: 0.4s; }
     border-bottom: 3px solid #00000020;
     position: absolute;
     z-index: 3;
+    left: 10px;
 }
 .overlay {
     position: absolute;
@@ -115,11 +116,34 @@ div { transition: 0.4s; }
 
 .switch.active .stars {
     display: block;
-    height: 2px;
+    height: 3px;
     aspect-ratio: 1;
+    transform: rotateZ(45deg);
     border-radius: 999px;
     background-color: #fff;
+    position: absolute;
 }
 .switch.active .star1 {
-    top: 20%; left: 10%
+    top: 35%; left: 16%
+}
+.switch.active .star2 {
+    top: 60%; left: 12%
+}
+.switch.active .star3 {
+    top: 74%; left: 22%
+}
+.switch.active .star4 {
+    top: 52%; left: 40%
+}
+.switch.active .star5 {
+    top: 30%; left: 54%
+}
+.switch.active .star6 {
+    top: 69%; left: 60%
+}
+.switch.active .star7 {
+    top: 20%; left: 30%
+}
+.switch.active .star8 {
+    top: 80%; left: 50%
 }
